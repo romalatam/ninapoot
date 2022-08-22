@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página tributo</title>
+    <script>
+        function myFunction() {
+            const navigationBar = document.getElementById("navigation-bar");
+            if (navigationBar.className === "navigation-bar") {
+                navigationBar.className += " responsive";
+            } else {
+                navigationBar.className = "navigation-bar";
+            }
+        }
+    </script>
+</head>
+<body>
+	<img src="top.jpg" width="100%" height="250%">
+<nav id="navigation-bar" class="navigation-bar">
+	<ul>
+		<li><a class="active" href="mi-pagina-web.html">Inicio</a></li>
+		<li><a href="pagina1.html"> Fin de la Pobreza</a></li>
+		<li><a href="pagina2.html"> Hambre cero</a></li>
+		<li><a href="pagina3.html"> Salud y bienestar</a></li>
+		<li class="menu__hamburger-icon">
+			<a  href="javascript:void(0);" onclick="myFunction()">
+				<i class="lni lni-menu"></i>
+			</a>
+		</li>
+	</ul>
+</nav>
+
+
+
+
+<div id="main-content-container">
+
+    <aside id="links-sidebar" >
+		<br>
+		<h3><ul style="list-style-type:circle"> Objetivos del Desarrollo Sostenible </h3></ul>
+		<ul style="list-style-type: circle;">
+			<li><a href="pagina1.html">ODS 1</a></li>
+		    <li><a href="pagina2.html">ODS 2</a></li>
+		    <li><a href="pagina3.html">ODS 3</a></li>
+	</aside>
+
+    
+    <section id="main-content">
+		<header id="header">
+			<h1>Objetivo 2: Poner fin al hambre</h1>
+			<p> Los Objetivos de Desarrollo Sostenible son una iniciativa de Naciones Unidas.
+			</p>
+		</header>
+
+        <h2>Información</h2>
+        <p>Tras décadas de una disminución constante, el número de personas que padecen hambre (medido por la prevalencia de desnutrición) comenzó a aumentar lentamente de nuevo en 2015. Las estimaciones actuales indican que cerca de 690 millones de personas en el mundo padecen hambre, es decir, el 8,9 por ciento de la población mundial, lo que supone un aumento de unos 10 millones de personas en un año y de unos 60 millones en cinco años.
+
+            El mundo no está bien encaminado para alcanzar el objetivo de hambre cero para 2030. Si continúan las tendencias recientes, el número de personas afectadas por el hambre superará los 840 millones de personas para 2030.
+            
+            Según el Programa Mundial de Alimentos, alrededor de 135 millones de personas padecen hambre severa Disponible en inglés, debido principalmente a los conflictos causados por los seres humanos, el cambio climático y las recesiones económicas. La pandemia de COVID-19 podría duplicar ahora esa cifra y sumar unos 130 millones de personas más que estarían en riesgo de padecer hambre severa a finales de 2020.
+            
+            Con más de 250 millones de personas que podrían encontrarse al borde de la hambruna Disponible en inglés, es necesario actuar rápidamente para proporcionar alimentos y ayuda humanitaria a las regiones que corren más riesgos.
+            
+            Al mismo tiempo, es necesario llevar a cabo un cambio profundo en el sistema agroalimentario mundial si queremos alimentar a más de 820 millones de personas que padecen hambre y a los 2000 millones de personas más que vivirán en el mundo en 2050. El aumento de la productividad agrícola y la producción alimentaria sostenible son cruciales para ayudar a aliviar los riesgos del hambre.</p>
+	
+    </section>
+</div>
+
+<footer id="footer">
+    <div class="footer__social footer__section">
+        <h2>Redes</h2>
+
+        <div class="social__networks">
+            <div class="social__network">
+                <span class="social__icon-container"><i class="lni lni-instagram-original social__icon"></i></span>
+                <span class="social__icon-handler"> <a href="https://www.instagram.com/nina_szk/"> @nina_szk </a> </span>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer__contact-form footer__section">
+        <h2>Contacto</h2>
+        <div>
+            <form>
+                <label for="contactEmail"> Correo electrónico:</label>
+                <input id="contactEmail" required type="email" placeholder="Ingresa tu correo electrónico">
+                <label for="contactMessage"> Mensaje:</label>
+                <textarea id="contactMessage" required rows="4" cols="50"> </textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+<script>
+    function myFunction() {
+        const navigationBar = document.getElementById("navigation-bar");
+        if (navigationBar.className === "navigation-bar") {
+            navigationBar.className += " responsive";
+        } else {
+            navigationBar.className = "navigation-bar";
+        }
+    }
+</script>
+</body>
+</html>
